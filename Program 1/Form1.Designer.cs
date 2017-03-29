@@ -51,9 +51,10 @@
             // 
             // calculateBtn
             // 
-            this.calculateBtn.Location = new System.Drawing.Point(115, 298);
+            this.calculateBtn.Location = new System.Drawing.Point(153, 367);
+            this.calculateBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.calculateBtn.Name = "calculateBtn";
-            this.calculateBtn.Size = new System.Drawing.Size(75, 23);
+            this.calculateBtn.Size = new System.Drawing.Size(100, 28);
             this.calculateBtn.TabIndex = 3;
             this.calculateBtn.Text = "Calculate";
             this.calculateBtn.UseVisualStyleBackColor = true;
@@ -61,165 +62,183 @@
             // 
             // squareFeetTextbox
             // 
-            this.squareFeetTextbox.Location = new System.Drawing.Point(166, 4);
+            this.squareFeetTextbox.Location = new System.Drawing.Point(221, 5);
+            this.squareFeetTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.squareFeetTextbox.Name = "squareFeetTextbox";
-            this.squareFeetTextbox.Size = new System.Drawing.Size(100, 20);
+            this.squareFeetTextbox.Size = new System.Drawing.Size(132, 22);
             this.squareFeetTextbox.TabIndex = 0;
             // 
             // numberOfCoatsTextbox
             // 
-            this.numberOfCoatsTextbox.Location = new System.Drawing.Point(166, 34);
+            this.numberOfCoatsTextbox.Location = new System.Drawing.Point(221, 42);
+            this.numberOfCoatsTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numberOfCoatsTextbox.Name = "numberOfCoatsTextbox";
-            this.numberOfCoatsTextbox.Size = new System.Drawing.Size(100, 20);
+            this.numberOfCoatsTextbox.Size = new System.Drawing.Size(132, 22);
             this.numberOfCoatsTextbox.TabIndex = 1;
             // 
             // pricePerGallonTextbox
             // 
-            this.pricePerGallonTextbox.Location = new System.Drawing.Point(166, 64);
+            this.pricePerGallonTextbox.Location = new System.Drawing.Point(221, 79);
+            this.pricePerGallonTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pricePerGallonTextbox.Name = "pricePerGallonTextbox";
-            this.pricePerGallonTextbox.Size = new System.Drawing.Size(100, 20);
+            this.pricePerGallonTextbox.Size = new System.Drawing.Size(132, 22);
             this.pricePerGallonTextbox.TabIndex = 2;
             // 
             // squareFeetWallLabel
             // 
             this.squareFeetWallLabel.AutoSize = true;
-            this.squareFeetWallLabel.Location = new System.Drawing.Point(30, 7);
+            this.squareFeetWallLabel.Location = new System.Drawing.Point(40, 9);
+            this.squareFeetWallLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.squareFeetWallLabel.Name = "squareFeetWallLabel";
-            this.squareFeetWallLabel.Size = new System.Drawing.Size(130, 13);
+            this.squareFeetWallLabel.Size = new System.Drawing.Size(171, 17);
             this.squareFeetWallLabel.TabIndex = 18;
             this.squareFeetWallLabel.Text = "Square feet of wall space:";
             // 
             // numberOfCoatsLabel
             // 
             this.numberOfCoatsLabel.AutoSize = true;
-            this.numberOfCoatsLabel.Location = new System.Drawing.Point(34, 37);
+            this.numberOfCoatsLabel.Location = new System.Drawing.Point(45, 46);
+            this.numberOfCoatsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.numberOfCoatsLabel.Name = "numberOfCoatsLabel";
-            this.numberOfCoatsLabel.Size = new System.Drawing.Size(126, 13);
+            this.numberOfCoatsLabel.Size = new System.Drawing.Size(167, 17);
             this.numberOfCoatsLabel.TabIndex = 17;
             this.numberOfCoatsLabel.Text = "Number of coats of paint:";
             // 
             // pricePerGallonLabel
             // 
             this.pricePerGallonLabel.AutoSize = true;
-            this.pricePerGallonLabel.Location = new System.Drawing.Point(39, 67);
+            this.pricePerGallonLabel.Location = new System.Drawing.Point(52, 82);
+            this.pricePerGallonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pricePerGallonLabel.Name = "pricePerGallonLabel";
-            this.pricePerGallonLabel.Size = new System.Drawing.Size(121, 13);
+            this.pricePerGallonLabel.Size = new System.Drawing.Size(162, 17);
             this.pricePerGallonLabel.TabIndex = 16;
             this.pricePerGallonLabel.Text = "Price of paint per gallon:";
             // 
             // paintCostLabel
             // 
             this.paintCostLabel.AutoSize = true;
-            this.paintCostLabel.Location = new System.Drawing.Point(107, 200);
+            this.paintCostLabel.Location = new System.Drawing.Point(143, 246);
+            this.paintCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.paintCostLabel.Name = "paintCostLabel";
-            this.paintCostLabel.Size = new System.Drawing.Size(69, 13);
+            this.paintCostLabel.Size = new System.Drawing.Size(91, 17);
             this.paintCostLabel.TabIndex = 12;
             this.paintCostLabel.Text = "Cost of paint:";
             // 
             // laborCostLabel
             // 
             this.laborCostLabel.AutoSize = true;
-            this.laborCostLabel.Location = new System.Drawing.Point(107, 230);
+            this.laborCostLabel.Location = new System.Drawing.Point(143, 283);
+            this.laborCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.laborCostLabel.Name = "laborCostLabel";
-            this.laborCostLabel.Size = new System.Drawing.Size(69, 13);
+            this.laborCostLabel.Size = new System.Drawing.Size(92, 17);
             this.laborCostLabel.TabIndex = 11;
             this.laborCostLabel.Text = "Cost of labor:";
             // 
             // totalCostLabel
             // 
             this.totalCostLabel.AutoSize = true;
-            this.totalCostLabel.Location = new System.Drawing.Point(118, 260);
+            this.totalCostLabel.Location = new System.Drawing.Point(157, 320);
+            this.totalCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalCostLabel.Name = "totalCostLabel";
-            this.totalCostLabel.Size = new System.Drawing.Size(58, 13);
+            this.totalCostLabel.Size = new System.Drawing.Size(76, 17);
             this.totalCostLabel.TabIndex = 10;
             this.totalCostLabel.Text = "Total Cost:";
             // 
             // numberOfGallonsLabel
             // 
             this.numberOfGallonsLabel.AutoSize = true;
-            this.numberOfGallonsLabel.Location = new System.Drawing.Point(2, 140);
+            this.numberOfGallonsLabel.Location = new System.Drawing.Point(3, 172);
+            this.numberOfGallonsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.numberOfGallonsLabel.Name = "numberOfGallonsLabel";
-            this.numberOfGallonsLabel.Size = new System.Drawing.Size(174, 13);
+            this.numberOfGallonsLabel.Size = new System.Drawing.Size(235, 17);
             this.numberOfGallonsLabel.TabIndex = 14;
             this.numberOfGallonsLabel.Text = "Number of gallons of paint required:";
             // 
             // totalSquareFeetLabel
             // 
             this.totalSquareFeetLabel.AutoSize = true;
-            this.totalSquareFeetLabel.Location = new System.Drawing.Point(86, 110);
+            this.totalSquareFeetLabel.Location = new System.Drawing.Point(115, 135);
+            this.totalSquareFeetLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalSquareFeetLabel.Name = "totalSquareFeetLabel";
-            this.totalSquareFeetLabel.Size = new System.Drawing.Size(90, 13);
+            this.totalSquareFeetLabel.Size = new System.Drawing.Size(120, 17);
             this.totalSquareFeetLabel.TabIndex = 15;
             this.totalSquareFeetLabel.Text = "Total square feet:";
             // 
             // laborHoursLabel
             // 
             this.laborHoursLabel.AutoSize = true;
-            this.laborHoursLabel.Location = new System.Drawing.Point(59, 170);
+            this.laborHoursLabel.Location = new System.Drawing.Point(79, 209);
+            this.laborHoursLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.laborHoursLabel.Name = "laborHoursLabel";
-            this.laborHoursLabel.Size = new System.Drawing.Size(117, 13);
+            this.laborHoursLabel.Size = new System.Drawing.Size(159, 17);
             this.laborHoursLabel.TabIndex = 13;
             this.laborHoursLabel.Text = "Hours of labor required:";
             // 
             // totalSquareFeetOutputLabel
             // 
             this.totalSquareFeetOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalSquareFeetOutputLabel.Location = new System.Drawing.Point(182, 105);
+            this.totalSquareFeetOutputLabel.Location = new System.Drawing.Point(243, 129);
+            this.totalSquareFeetOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalSquareFeetOutputLabel.Name = "totalSquareFeetOutputLabel";
-            this.totalSquareFeetOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.totalSquareFeetOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.totalSquareFeetOutputLabel.TabIndex = 4;
             this.totalSquareFeetOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // totalCostOutputLabel
             // 
             this.totalCostOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalCostOutputLabel.Location = new System.Drawing.Point(182, 255);
+            this.totalCostOutputLabel.Location = new System.Drawing.Point(243, 314);
+            this.totalCostOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalCostOutputLabel.Name = "totalCostOutputLabel";
-            this.totalCostOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.totalCostOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.totalCostOutputLabel.TabIndex = 9;
             this.totalCostOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // numberOfGallonsOutputLabel
             // 
             this.numberOfGallonsOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numberOfGallonsOutputLabel.Location = new System.Drawing.Point(182, 135);
+            this.numberOfGallonsOutputLabel.Location = new System.Drawing.Point(243, 166);
+            this.numberOfGallonsOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.numberOfGallonsOutputLabel.Name = "numberOfGallonsOutputLabel";
-            this.numberOfGallonsOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.numberOfGallonsOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.numberOfGallonsOutputLabel.TabIndex = 5;
             this.numberOfGallonsOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // laborHoursOutputLabel
             // 
             this.laborHoursOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.laborHoursOutputLabel.Location = new System.Drawing.Point(182, 165);
+            this.laborHoursOutputLabel.Location = new System.Drawing.Point(243, 203);
+            this.laborHoursOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.laborHoursOutputLabel.Name = "laborHoursOutputLabel";
-            this.laborHoursOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.laborHoursOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.laborHoursOutputLabel.TabIndex = 6;
             this.laborHoursOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // paintCostOutputLabel
             // 
             this.paintCostOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.paintCostOutputLabel.Location = new System.Drawing.Point(182, 195);
+            this.paintCostOutputLabel.Location = new System.Drawing.Point(243, 240);
+            this.paintCostOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.paintCostOutputLabel.Name = "paintCostOutputLabel";
-            this.paintCostOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.paintCostOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.paintCostOutputLabel.TabIndex = 7;
             this.paintCostOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // laborCostOutputLabel
             // 
             this.laborCostOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.laborCostOutputLabel.Location = new System.Drawing.Point(182, 225);
+            this.laborCostOutputLabel.Location = new System.Drawing.Point(243, 277);
+            this.laborCostOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.laborCostOutputLabel.Name = "laborCostOutputLabel";
-            this.laborCostOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.laborCostOutputLabel.Size = new System.Drawing.Size(133, 28);
             this.laborCostOutputLabel.TabIndex = 8;
             this.laborCostOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 333);
+            this.ClientSize = new System.Drawing.Size(417, 410);
             this.Controls.Add(this.laborCostOutputLabel);
             this.Controls.Add(this.paintCostOutputLabel);
             this.Controls.Add(this.laborHoursOutputLabel);
@@ -239,8 +258,9 @@
             this.Controls.Add(this.numberOfCoatsTextbox);
             this.Controls.Add(this.squareFeetTextbox);
             this.Controls.Add(this.calculateBtn);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Paint Price Application";
             this.ResumeLayout(false);
             this.PerformLayout();
 
